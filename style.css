@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 2rem 1rem 2rem;
+}
+.left h1 {
+  letter-spacing: 0.5rem;
+}
+.right a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+
+.right a:hover {
+  border-bottom: 1px solid black;
+}
+.header {
+  width: 100%;
+  height: 50rem;
+}
+
+.header h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.header p {
+  text-align: center;
+} /* image 2 */
+
+.header img {
+  margin: 2rem 0rem 2rem 0rem;
+
+  width: 100%;
+  height: 70%;
+}
+.about {
+  border-top: 2px solid black;
+  margin: 0px 24rem 0px 24rem;
+}
+.about .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .main .left_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.about .main .left_img .name {
+  margin: 1rem;
+}
+.about .para {
+  line-height: 1rem;
+  margin: 2rem 0 2rem 0;
+}
+.about .Rectangle {
+  margin-left: -5rem;
+  width: 45rem;
+  height: 25rem;
+  margin-bottom: 1rem;
+}
+.about .main_logo {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  /* Rectangle 7 */
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.about .main_logo p {
+  margin-left: 1rem;
+}
+
+.about .main_logo .main_left {
+  width: 50%;
+  display: flex;
+
+  padding: 1rem 2rem;
+}
+
+.about .main_logo .main_right {
+  width: 50%;
+  display: flex;
+
+  padding: 1rem 2rem;
+}
+.read_section {
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.read_section img {
+  margin-top: -2rem;
+}
+.read_section .main_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 90%;
+}
+.read_section .main_card .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.read_section .main_card .car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 90%;
+}
+.read_section .main_card .card img {
+  width: 20rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+.read_section .main_card .card p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.main_form {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-top: 0.5rem solid black;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+.main_form .form h1 {
+  font-family: "New York Extra Large";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  text-align: center;
+  color: #090909;
+}
+.main_form .form p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #090909;
+  margin-top: 1rem;
+}
+.main_form .form .btn {
+  left: 400px;
+  top: 5021px;
+
+  background: #ffffff;
+  margin-top: 1rem;
+  /* border: 1px solid #000000; */
+}
+.main_form .form .btn input {
+  width: 20rem;
+  height: 3rem;
+  background: #ffffff;
+  border: 1px solid #000000;
+  margin-left: -4rem;
+  font-size: 1rem;
+}
+.main_form .form .btn button {
+  position: absolute;
+
+  width: 6rem;
+  height: 3rem;
+  background: #000000;
+  color: #ffffff;
+}
+.footer {
+  margin-top: 3rem;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .para {
+  padding-top: 2rem;
+  word-spacing: 1rem;
+  letter-spacing: 0.3rem;
+  font-size: 1rem;
+}
+
+.footer img {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.footer p {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.footer .link a {
+  margin: 1rem;
+  color: #eaeaea;
+}
